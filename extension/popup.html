@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 270px; }
+    .stat { margin-bottom: 10px; }
+    .alert { color: red; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h3>MetricMate</h3>
+
+  <label for="serverSelect">Choose server:</label>
+  <select id="serverSelect">
+    <option value="ws://localhost:8080">Localhost</option>
+    <!-- Add more servers here -->
+  </select>
+
+  <div id="alerts"></div>
+
+  <canvas id="cpuChart" width="250" height="100"></canvas>
+  <canvas id="memChart" width="250" height="100"></canvas>
+
+  <div>
+    <p>CPU Load: <span id="cpuLoad">-</span></p>
+    <p>Used Memory: <span id="usedMem">-</span>%</p>
+    <p>Disk Used: <span id="diskUsed">-</span>%</p>
+    <p>Uptime: <span id="uptime">-</span></p>
+  </div>
+
+  <script src="chart.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

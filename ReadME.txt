@@ -1,0 +1,2 @@
+MetricMate – Real-Time System Monitoring Chrome Extension
+Developed a Chrome extension backed by a Node.js WebSocket server to display live system metrics including CPU, memory, disk usage, and uptime. Leveraged WebSockets for real-time updates and built a lightweight, responsive UI for seamless monitoring directly in the browser.

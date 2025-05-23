@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "MetricMate",
+  "description": "Live system stats monitor",
+  "version": "2.0",
+  "permissions": ["scripting"],
+  "icons": {
+  "128": "icon.png"
+},
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}

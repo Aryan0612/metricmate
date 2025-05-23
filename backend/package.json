@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "check-disk-space": "^3.4.0",
+    "ws": "^8.18.2"
+  }
+}
